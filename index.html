@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech detection</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+                <!-- ===Navbar begins here=== -->
+                <nav class="navbar navbar-expand-lg navbar-light bg-primary text-white>
+                    <div class="container-fluid">
+                      <a class="navbar-brand mt-1 text-white display-6" href="#">
+                        <img src="./img/Ganiu-pic.png" alt="" width="48" height="47" class="d-inline-block rounded-circle px-auto py-auto ">
+                        <span class="h1">Durojaye Ganiu</span></a>
+                      <button class="navbar-toggler  text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse text-white" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-white">
+                          <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-white" href="https://drive.google.com/file/d/1MoYVFO3cpARkSWM_9sWm7YeDo5_l8AyJ/view?usp=sharing" target="_blank">My Resume</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Other Projects
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="https://background-changer.vercel.app">Background Changer</a></li>
+                              <li><a class="dropdown-item" href="https://javascript-guess-game.vercel.app">Guess game</a></li>
+                              <li><a class="dropdown-item" href="https://counter-app-tawny.vercel.app/">Counter App</a></li>
+                              <li><a class="dropdown-item" href="https://inspirational-quote-generator-kappa.vercel.app/">Inspirational Quote Generator</a></li>
+                              <li><a class="dropdown-item" href="https://digital-stopwatch.vercel.app/">Stopwatch</a></li>
+                              <!-- <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+                <!-- ===Navbar Ends here=== --> 
+
+                <div class="heading">
+                    <h1 class="appName">Speech Recognition App</h1>
+                    <i class="hint">Select a language of your choice and speak!!</i>
+                </div>
+    <div class="container">
+        <form class="lang">
+            <label for="lang">Choose a language</label>
+            <select name="lang" id="lang" onchange="handleDetection()">
+                <option value="" >Select</option>
+                <option value="en-US" >English</option>
+                <option value="ar-SA">Arabic</option>
+                <option value="fr-FR">French</option>
+                <option value="yo-NG">Yoruba</option>
+    
+            </select>
+        </form>
+    
+        <div class="words" id="input" contenteditable>
+        </div>
+        <div class="reload">
+            <button id="reload">Clear</button>
+        </div>
+    </div>
+  
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>

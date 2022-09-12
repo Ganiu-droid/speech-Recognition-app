@@ -1,0 +1,6 @@
+Since most people speak faster than they 
+write, speech recognition software provides 
+a simple way to get words into a document 
+without delay in the process. 
+
+Here is a simple app, 

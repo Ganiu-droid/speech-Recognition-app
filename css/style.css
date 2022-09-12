@@ -1,0 +1,79 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  background: #030235;
+  font-family: 'helvetica neue';
+  font-weight: 200;
+  font-size: 20px;
+}
+.heading{
+  margin: 5rem 5rem 2rem 5rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.heading .appName{
+  color: white;
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+.heading .hint{
+  color: white;
+}
+
+.container{
+  padding-top: 20rem;
+  padding: 2rem 5rem 0 5rem;
+
+}
+
+.words {
+  max-width: 500px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 10px 10px 0 rgba(0,0,0,0.1);
+  padding: 0rem 2rem 1rem 5rem;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(4%, #fff)) 0 4px;
+  background-size: 100% 3rem;
+  position: relative;
+  line-height: 3rem;
+}
+
+.reload, .lang{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.lang{
+  color: gray;
+  font-size: 2rem;
+}
+
+
+.reload button{
+  background-color: blue;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 10px;
+}
+
+
+p {
+  margin: 0 0 3rem;
+}
+
+.words:before {
+  content: '';
+  position: absolute;
+  width: 4px;
+  top: 0;
+  left: 30px;
+  bottom: 0;
+  border: 1px solid;
+  border-color: transparent #efe4e4;
+}
