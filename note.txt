@@ -3,4 +3,19 @@ write, speech recognition software provides
 a simple way to get words into a document 
 without delay in the process. 
 
-Here is a simple app, 
+Hosted on vercel
+ https://speech-recognition-app-three.vercel.app/ 
+
+source code(hosted on github)
+https://github.com/Ganiu-droid/speech-Recognition-app
+
+
+Links to other projects
+background changer: https://lnkd.in/d_ZXwQBM
+guess-game: https://lnkd.in/dtduuYVn
+counter app: https://lnkd.in/d2rKqDe2
+inspirational quote generator: https://lnkd.in/dntSTbZG
+stopwatch: bit.ly/my-digital-stopwatch
+
+#coding #projects #
+#javascriptdeveloper #internship #softwaredeveloper #javascript #hiredevelopers

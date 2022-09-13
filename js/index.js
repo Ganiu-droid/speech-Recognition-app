@@ -12,20 +12,8 @@ window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecogn
 
 
 
-// recognition.lang = 'yo-NG';
-// langSelect()
-// console.log(langSelect())
-
-// function getOption(){
-//   if(!recognition.start()){
-//     recognizeSpeech()
-//   }
-  
-// }
-
 async function handleDetection(){
   await langSelect()
-  // recognition.lang = 'en-US';
   
   let p = document.createElement('p');
   const words = document.querySelector('.words');
